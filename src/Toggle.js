@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 
 export default function Toggle() {
   const [isToggled, setToggled] = useState(false);
